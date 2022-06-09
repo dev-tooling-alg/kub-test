@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: argotest
+  annotations:
+    github.com/project-slug: dev-tooling-alg/argotest
+spec:
+  type: other
+  lifecycle: unknown
+  owner: dev-tooling
