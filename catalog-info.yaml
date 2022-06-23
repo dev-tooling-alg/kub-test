@@ -3,8 +3,10 @@ kind: Component
 metadata:
   name: argotest
   annotations:
-    github.com/project-slug: dev-tooling-alg/argotest
+    github.com/project-slug: dev-tooling-alg/kub-test
+    backstage.io/kubernetes-id: kub-test
+    backstage.io/kubernetes-namespace: default
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: dev-tooling
